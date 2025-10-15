@@ -34,16 +34,16 @@
     "build": "npm run build-css && rm -rf cjs esm && tsc --outDir esm -t esnext --noEmit false --allowImportingTsExtensions false --composite false --jsx react-jsx && tsc --outDir cjs -t es6 --sourceMap --noEmit false --allowImportingTsExtensions false --composite false -m commonjs --moduleResolution node --jsx react-jsx && echo '{\"type\": \"commonjs\"}' > cjs/package.json"
   },
   "dependencies": {
-    "tailwind-merge": "^1.14.0"
+    "tailwind-merge": "^2.5.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
+    "react": "^18.2.0 || ^19.0.0",
     "react-dropzone": "^14.2.3",
     "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.21",
+    "@types/react": "^18.2.21 || ^19.0.0",
     "react-dropzone": "^14.2.3",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.4.0"
   }
 }
