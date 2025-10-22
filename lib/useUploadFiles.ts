@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import { useEvent } from "./useEvent";
-import { UploadFileResponse, uploadFiles } from "./uploadFiles";
+import type { UploadFileResponse } from "./uploadFiles";
+import { uploadFiles } from "./uploadFiles";
 
 export const useUploadFiles = (
   uploadUrl: string | (() => Promise<string>),

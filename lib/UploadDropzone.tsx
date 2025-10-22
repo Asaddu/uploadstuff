@@ -2,7 +2,7 @@ import { useCallback, useState } from "react";
 import type { Accept, FileWithPath } from "react-dropzone";
 import { useDropzone } from "react-dropzone";
 import { twMerge } from "tailwind-merge";
-import { UploadFileResponse } from ".";
+import type { UploadFileResponse } from ".";
 import { useUploadFiles } from "./useUploadFiles";
 import { UploadSpinner } from "./UploadSpinner";
 
