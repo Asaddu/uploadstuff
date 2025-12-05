@@ -1,1 +1,1 @@
-export * from "./uploadFiles";
+export * from "./uploadFiles.js";

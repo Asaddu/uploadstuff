@@ -1,8 +1,8 @@
 import { useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
-import { UploadSpinner } from "./UploadSpinner";
-import type { UploadFileResponse } from "./uploadFiles";
-import { useUploadFiles } from "./useUploadFiles";
+import { UploadSpinner } from "./UploadSpinner.js";
+import type { UploadFileResponse } from "./uploadFiles.js";
+import { useUploadFiles } from "./useUploadFiles.js";
 
 export function UploadButton(props: {
   /// Required props

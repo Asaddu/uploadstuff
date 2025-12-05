@@ -2,9 +2,9 @@ import { useCallback, useState } from "react";
 import type { Accept, FileWithPath } from "react-dropzone";
 import { useDropzone } from "react-dropzone";
 import { twMerge } from "tailwind-merge";
-import type { UploadFileResponse } from ".";
-import { useUploadFiles } from "./useUploadFiles";
-import { UploadSpinner } from "./UploadSpinner";
+import type { UploadFileResponse } from "./index.js";
+import { useUploadFiles } from "./useUploadFiles.js";
+import { UploadSpinner } from "./UploadSpinner.js";
 
 type UploadDropzoneState = {
   progress: number | null;
