@@ -5,7 +5,8 @@
   "license": "MIT",
   "repository": "https://github.com/Asaddu/uploadstuff",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "homepage": "https://uploadstuff.dev",
   "module": "lib/index.ts",
