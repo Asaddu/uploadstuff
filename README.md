@@ -1,8 +1,12 @@
-# UploadStuff
+# @asaddu/uploadstuff
+
+A fork of [@xixixao/uploadstuff](https://github.com/xixixao/uploadstuff), maintained at [github.com/Asaddu/uploadstuff](https://github.com/Asaddu/uploadstuff).
 
 ## Install
 
-`npm install @xixixao/uploadstuff`
+```sh
+npm install @asaddu/uploadstuff
+```
 
 ## Docs
 
